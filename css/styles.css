@@ -555,8 +555,14 @@ body {
     align-items: center;
 }
 
+.master-social-footer {
+    gap: 16px;
+}
+
+
 .footer-social {
     display: block;
+    height: 109px;
 }
 
 .master-social-footer {
