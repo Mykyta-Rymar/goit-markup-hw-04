@@ -80,6 +80,8 @@ ol {
 
 .header-menu {
     overflow: hidden;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
 }
 
 .header-menu:hover.header-menu::after {
@@ -92,7 +94,6 @@ ol {
 }
 
 .header-list {
-
     display: flex;
     gap: 40px;
 }
@@ -112,6 +113,7 @@ ol {
 .header-address {
     display: flex;
     gap: 40px;
+    
 }
 
 .header-menu:hover,
@@ -131,6 +133,7 @@ ol {
 .address-mail {
     display: block;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-mail:hover,
@@ -159,6 +162,7 @@ ol {
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
+    
 }
 
 .logo {
@@ -222,6 +226,8 @@ body {
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    max-width: 1440px;
+    background-size: cover;
 }
 
 .master {
@@ -240,7 +246,7 @@ body {
     display: block;
     min-width: 169px;
     cursor: pointer;
-    transition-duration: 300ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .paragraph {
@@ -285,6 +291,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 8px;
+    background-color: #f4f4fd;
 }
 
 .master-hero-list {
@@ -360,7 +367,7 @@ body {
 
 .list-item-social-link:hover,
 .list-item-social-link:focus {
-    background-color: #31d0aa;
+    background-color: #404bbf;
 }
 
 .icon-social {
@@ -387,6 +394,10 @@ body {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+
+.portfolio-item {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover {
@@ -440,7 +451,7 @@ body {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     transform: translateY(100%);
-    transition-duration: 300ms;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-text {
