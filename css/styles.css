@@ -162,7 +162,7 @@ ol {
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
-    
+
 }
 
 .logo {
@@ -216,7 +216,10 @@ body {
 }
 
 .master-section {
+    margin: 0 auto;
     padding: 188px 0;
+    max-width: 1440px;
+    background-size: cover;
 }
 
 .service {
@@ -226,7 +229,6 @@ body {
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    max-width: 1440px;
     background-size: cover;
 }
 
